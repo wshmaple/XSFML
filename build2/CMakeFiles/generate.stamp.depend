@@ -1,0 +1,39 @@
+# CMake generation dependency list for this directory.
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/CMakeLists.txt
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/CMakeFiles/3.15.3/CMakeCCompiler.cmake
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/CMakeFiles/3.15.3/CMakeRCCompiler.cmake
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/CMakeFiles/3.15.3/CMakeSystem.cmake
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/cmake/Config.cmake
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/cmake/SFMLConfig.cmake.in
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/cmake/SFMLConfigDependencies.cmake.in
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/tools/pkg-config/sfml-all.pc.in
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/tools/pkg-config/sfml-audio.pc.in
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/tools/pkg-config/sfml-graphics.pc.in
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/tools/pkg-config/sfml-network.pc.in
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/tools/pkg-config/sfml-system.pc.in
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/tools/pkg-config/sfml-window.pc.in
+D:/Program Files/CMake/share/cmake-3.15/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeCXXInformation.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CheckIncludeFileCXX.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CheckTypeSize.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/Compiler/MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/GNUInstallDirs.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/Platform/WindowsPaths.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/WriteBasicConfigVersionFile.cmake

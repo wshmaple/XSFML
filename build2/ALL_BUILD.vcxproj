@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DEE132A8-73DB-3D89-AF6B-8017FE62FA37}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master -BC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2 --check-stamp-file C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeSystem.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\Config.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\SFMLConfig.cmake.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\SFMLConfigDependencies.cmake.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-all.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-audio.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-graphics.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-network.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-system.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-window.pc.in;D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master -BC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2 --check-stamp-file C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeSystem.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\Config.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\SFMLConfig.cmake.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\SFMLConfigDependencies.cmake.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-all.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-audio.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-graphics.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-network.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-system.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-window.pc.in;D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master -BC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2 --check-stamp-file C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeSystem.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\Config.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\SFMLConfig.cmake.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\SFMLConfigDependencies.cmake.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-all.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-audio.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-graphics.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-network.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-system.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-window.pc.in;D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master -BC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2 --check-stamp-file C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\3.15.3\CMakeSystem.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\Config.cmake;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\SFMLConfig.cmake.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\cmake\SFMLConfigDependencies.cmake.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-all.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-audio.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-graphics.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-network.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-system.pc.in;C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\tools\pkg-config\sfml-window.pc.in;D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\ZERO_CHECK.vcxproj">
+      <Project>{A94FD822-C1C4-3ACD-8EF6-9D5F278CBC04}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\ftp\ftp.vcxproj">
+      <Project>{9CCD7BBF-F026-311F-83FF-445C13052E4D}</Project>
+      <Name>ftp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\island\island.vcxproj">
+      <Project>{3ACEFFB1-1EA0-37E6-832C-204C85752B55}</Project>
+      <Name>island</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\joystick\joystick.vcxproj">
+      <Project>{AE9EB570-3318-3484-AA82-E12FF19B1FF5}</Project>
+      <Name>joystick</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\opengl\opengl.vcxproj">
+      <Project>{2C7759E1-E357-3E31-A8E7-A2661254EDEC}</Project>
+      <Name>opengl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\pong\pong.vcxproj">
+      <Project>{EC5C39FF-6682-3F48-B3E2-9AB583BFCDF9}</Project>
+      <Name>pong</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\test\runtests.vcxproj">
+      <Project>{C780658E-A26C-3453-8FBE-8C39EF5A2F3E}</Project>
+      <Name>runtests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{5B33100B-AA15-387F-9766-3D30663ED0B7}</Project>
+      <Name>sfml-audio</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{B1584D70-0CF9-3E09-B7E5-37327E22E826}</Project>
+      <Name>sfml-graphics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{F93157E6-F77C-38B1-8B33-CD5F9F1F2AA9}</Project>
+      <Name>sfml-main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{13D3C6CE-172C-36A6-B063-82C6964FD55E}</Project>
+      <Name>sfml-network</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\src\SFML\System\sfml-system.vcxproj">
+      <Project>{9E376FD8-B5A0-38DF-BA20-6BE761B35FEF}</Project>
+      <Name>sfml-system</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{42506F45-84EC-3DF4-9185-D7736BD80EDD}</Project>
+      <Name>sfml-window</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\shader\shader.vcxproj">
+      <Project>{780B5A3C-2645-3A4E-8398-0EAC0DA580D1}</Project>
+      <Name>shader</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\sockets\sockets.vcxproj">
+      <Project>{2A825495-990D-3AD9-8EB7-6BB81F39BA8B}</Project>
+      <Name>sockets</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\sound\sound.vcxproj">
+      <Project>{EA464A7D-5551-3C44-92C6-D0DBA2166F3E}</Project>
+      <Name>sound</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\sound_capture\sound-capture.vcxproj">
+      <Project>{08E31A4F-23E4-317D-91E0-D72C23EC5511}</Project>
+      <Name>sound-capture</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\test\test-sfml-graphics.vcxproj">
+      <Project>{5E758F07-5BC8-343D-A5F5-669792035301}</Project>
+      <Name>test-sfml-graphics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\test\test-sfml-system.vcxproj">
+      <Project>{D61F60BE-2F0A-3C66-853C-B29A685292CE}</Project>
+      <Name>test-sfml-system</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\test\test-sfml-window.vcxproj">
+      <Project>{E8985036-316E-3303-9FD3-D90F8D161C0F}</Project>
+      <Name>test-sfml-window</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\voip\voip.vcxproj">
+      <Project>{856AB892-3C0C-3C1E-8637-E16DF15B63AA}</Project>
+      <Name>voip</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\vulkan\vulkan.vcxproj">
+      <Project>{78D63E0D-2758-36A8-87E6-EB3988710F52}</Project>
+      <Name>vulkan</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\win32\win32.vcxproj">
+      <Project>{4F517F1C-DD9C-3FB5-B09A-7B396247DE25}</Project>
+      <Name>win32</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\MIDIVisualizer-master\SFML-master\SFML-master\build2\examples\window\window.vcxproj">
+      <Project>{CD98BBE2-EEC2-38A9-88E1-16CD454B4651}</Project>
+      <Name>window</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\MIDIVISUALIZER-MASTER\SFML-MASTER\SFML-MASTER\BUILD2\CMAKEFILES\516F8365064DFE65A1143C1D6026C30E\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master -BC:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/build2/SFML.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

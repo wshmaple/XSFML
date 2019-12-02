@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/cmake/Modules/FindFLAC.cmake
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/cmake/Modules/FindVorbis.cmake
+C:/Users/Administrator/Desktop/MIDIVisualizer-master/SFML-master/SFML-master/src/SFML/Audio/CMakeLists.txt
+D:/Program Files/CMake/share/cmake-3.15/Modules/FindOpenAL.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
